@@ -3,13 +3,13 @@
 - (void)applicationDidFinishLaunching:(id)application{
 %orig;
 
-    UIAlertView *alert = [[UIAlertView alloc]
-    initWithTitle:@"Success"
-    message:@"Your device did a successful respring"
-    delegate:self
-    cancelButtonTitle:@"Okay"
-    otherButtonTitles:nil];
+UIAlertView *alert = [[UIAlertView alloc]
+initWithTitle:@"Success"
+message:@"Your device did a successful respring"
+delegate:self
+cancelButtonTitle:@"Okay"
+otherButtonTitles:nil];
 
-    [alert show];
+[alert show];
 }
 %end
